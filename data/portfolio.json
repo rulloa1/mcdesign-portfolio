@@ -1,1 +1,238 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Chetan",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Chetan Verma - curious",
+  "headerTaglineThree": "designer and devloper",
+  "headerTaglineFour": " based in New Delhi, India.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/chetanverma16"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/chetanverma7/"
+    },
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/realchetanverma"
+    },
+    {
+      "id": "4",
+      "title": "Blog",
+      "link": "https://blog.chetanverma.com/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:hello@chetanverma.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "S. Florida - High Rise Luxe Condo",
+      "description": "Contemporary luxury condominium featuring sophisticated interior design, premium finishes, and breathtaking ocean views. This beachfront residence sho...",
+      "imageSrc": "/images/projects/miami-beach-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "title": "High Alpine Mtn. - Ranch Luxe Retreat",
+      "description": "Spectacular high-alpine luxury ranch featuring modern mountain architecture with floor-to-ceiling windows, custom stone masonry, and exposed timber co...",
+      "imageSrc": "/images/projects/alpine-ranch-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "title": "Syracuse House - N. Utah Craftsman Estate",
+      "description": "Stunning craftsman-style estate featuring professional landscaping, custom stone work, and dramatic evening lighting. This comprehensive project showc...",
+      "imageSrc": "/images/projects/syracuse-1.jpg",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "title": "Mtn. Mid-Rise Luxe - Condo",
+      "description": "Sophisticated condo renovation featuring contemporary finishes, custom millwork, and luxurious bathroom design. This mountain retreat showcases elegan...",
+      "imageSrc": "/images/projects/montana-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "title": "Ultra Luxe Private Club - Resort Pool",
+      "description": "Luxury pool and outdoor living space design featuring custom stone work, pool house structures, and beautifully landscaped entertainment areas.",
+      "imageSrc": "/images/projects/pool-design-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "6",
+      "title": "South Coast Renovation - Complete Remodel",
+      "description": "A comprehensive remodel and design-build project that transforms existing spaces into modern, functional, and aesthetically stunning coastal living fe...",
+      "imageSrc": "/images/projects/southcoast-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "7",
+      "title": "Carmel Valley New - Custom Residence",
+      "description": "A stunning custom design-build residence featuring elegant architectural details and seamless integration with the natural landscape of Carmel Valley.",
+      "imageSrc": "/images/projects/carmel-valley-new-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "8",
+      "title": "North Florida Renovation/Addition - Renovation/Addition",
+      "description": "Comprehensive renovation and addition project featuring thoughtful design updates and estate management services. This project showcases professional ...",
+      "imageSrc": "/images/projects/north-florida-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "9",
+      "title": "Coastal Restoration - Erosion Repair",
+      "description": "A dramatic coastal restoration project showcasing erosion repair and hillside stabilization. This comprehensive project transformed an eroded coastal ...",
+      "imageSrc": "/images/projects/coastal-restoration-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "10",
+      "title": "Coastal Mountain Residence - Civil Site Work",
+      "description": "Scenic mountain remodel project featuring stunning ocean views, retaining wall construction, custom garage building, and comprehensive site developmen...",
+      "imageSrc": "/images/projects/bigsur-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "11",
+      "title": "Carmel Knolls - More Than Lipstick on an Old Lady!",
+      "description": "A complete remodel showcasing the transformation from original condition to a beautifully finished home with updated decking, new windows, architectur...",
+      "imageSrc": "/images/projects/carmel-knolls-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "12",
+      "title": "Abaco Luxe Boat House - Construction",
+      "description": "Comprehensive development project on the pristine Abaco Islands featuring luxury residential properties.",
+      "imageSrc": "/images/projects/abaco-luxe-boathouse-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "13",
+      "title": "Civil Engineering - Infrastructure Projects",
+      "description": "Comprehensive civil engineering projects including excavation, coastal restoration, retaining wall systems, hillside stabilization, and site grading. ...",
+      "imageSrc": "/images/projects/civil-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "14",
+      "title": "Beachfront Estate - Residence",
+      "description": "Premier beachfront estate property development showcasing luxury coastal living in the Bahamas.",
+      "imageSrc": "/images/projects/beachfront-1.jpg",
+      "url": "#"
+    },
+    {
+      "id": "15",
+      "title": "Development Civil - Construction",
+      "description": "A collection of development projects showcasing comprehensive construction and site development work.",
+      "imageSrc": "/images/projects/development-1.jpg",
+      "url": "#"
+    },
+    {
+      "id": "16",
+      "title": "New Residential Construction - In Historic Neighborhood",
+      "description": "A comprehensive transformation of a historic property, seamlessly blending traditional craftsman character with modern comfort and functionality. This...",
+      "imageSrc": "/images/projects/pg-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "17",
+      "title": "Carmel Forest to Ocean View - Custom Addition",
+      "description": "A stunning coastal home showcasing refined craftsmanship and thoughtful design that harmonizes with the natural beauty of the Carmel coastline.",
+      "imageSrc": "/images/projects/carmel-2-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "18",
+      "title": "Hillside Restoration & Environmental Cleanup - Environmental Restoration",
+      "description": "Comprehensive hillside restoration and environmental cleanup project removing years of accumulated dumping and debris to restore the natural landscape...",
+      "imageSrc": "/images/projects/cleanup-cover.jpg",
+      "url": "#"
+    },
+    {
+      "id": "19",
+      "title": "Laguna Grande - Spanish Revival Commercial",
+      "description": "A comprehensive commercial design-build project featuring Spanish Colonial Revival architecture. This multi-building complex showcases careful attenti...",
+      "imageSrc": "/images/projects/laguna-grande-cover.jpg",
+      "url": "#"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    }
+  ],
+  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Python",
+      "Go"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
+  }
+}
