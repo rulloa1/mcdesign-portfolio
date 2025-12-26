@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "next-themes";
 import data from "../../data/portfolio.json";
 
-const Button = ({ children, type, onClick, classes }) => {
+const Button = ({ children, type, onClick, classes, ...props }) => {
   const { theme } = useTheme();
   if (type === "primary") {
     return (
@@ -14,6 +14,7 @@ const Button = ({ children, type, onClick, classes }) => {
         }  transition-all duration-300 ease-out first:ml-0 hover:scale-105 active:scale-100 link ${
           data.showCursor && "cursor-none"
         }  ${classes}`}
+        {...props}
       >
         {children}
       </button>
@@ -30,6 +31,7 @@ const Button = ({ children, type, onClick, classes }) => {
       } hover:scale-105 active:scale-100  tablet:first:ml-0  ${
         data.showCursor && "cursor-none"
       } ${classes} link`}
+      {...props}
     >
       {children}
     </button>
