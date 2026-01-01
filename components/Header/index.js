@@ -36,17 +36,19 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     onClick={() =>
                       setTheme(theme === "dark" ? "light" : "dark")
                     }
+                    aria-label="Toggle Dark Mode"
                   >
                     <img
                       className="h-6"
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
+                      alt="Dark Mode Icon"
                     ></img>
                   </Button>
                 )}
 
-                <Popover.Button>
+                <Popover.Button aria-label="Toggle Menu">
                   <img
                     className="h-5"
                     src={`/images/${
@@ -58,6 +60,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
+                    alt="Menu Icon"
                   ></img>
                 </Popover.Button>
               </div>
@@ -151,10 +154,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                aria-label="Toggle Dark Mode"
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt="Dark Mode Icon"
                 ></img>
               </Button>
             )}
@@ -181,10 +186,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                aria-label="Toggle Dark Mode"
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt="Dark Mode Icon"
                 ></img>
               </Button>
             )}
