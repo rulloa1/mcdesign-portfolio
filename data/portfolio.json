@@ -1,9 +1,9 @@
 {
-  "name": "Chetan",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "name": "Rory Roy Ulloa",
+  "headerTaglineOne": "Sophisticated Design.",
+  "headerTaglineTwo": "Exceptional Craftsmanship.",
+  "headerTaglineThree": "I'm Rory Roy Ulloa — a visionary",
+  "headerTaglineFour": "designer and developer.",
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
@@ -12,104 +12,94 @@
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/rulloa1"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
-    },
-    {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    {
-      "id": "4",
-      "title": "Blog",
-      "link": "https://blog.chetanverma.com/"
+      "link": "https://www.linkedin.com/in/rulloa1/"
     },
     {
       "id": "5",
       "title": "Email",
-      "link": "mailto:hello@chetanverma.com"
+      "link": "mailto:hello@rulloa.com"
     }
   ],
   "projects": [
     {
       "id": "1",
       "title": "S. Florida - High Rise Luxe Condo",
-      "description": "Contemporary luxury condominium featuring sophisticated interior design, premium finishes, and breathtaking ocean views. This beachfront residence sho...",
+      "description": "Contemporary luxury condominium featuring sophisticated interior design, premium finishes, and breathtaking ocean views.",
       "imageSrc": "/images/projects/miami-beach-cover.jpg",
       "url": "#"
     },
     {
       "id": "2",
       "title": "High Alpine Mtn. - Ranch Luxe Retreat",
-      "description": "Spectacular high-alpine luxury ranch featuring modern mountain architecture with floor-to-ceiling windows, custom stone masonry, and exposed timber co...",
+      "description": "Spectacular high-alpine luxury ranch featuring modern mountain architecture with floor-to-ceiling windows and custom stone masonry.",
       "imageSrc": "/images/projects/alpine-ranch-cover.jpg",
       "url": "#"
     },
     {
       "id": "3",
       "title": "Syracuse House - N. Utah Craftsman Estate",
-      "description": "Stunning craftsman-style estate featuring professional landscaping, custom stone work, and dramatic evening lighting. This comprehensive project showc...",
+      "description": "Stunning craftsman-style estate featuring professional landscaping, custom stone work, and dramatic evening lighting.",
       "imageSrc": "/images/projects/syracuse-1.jpg",
       "url": "#"
     },
     {
       "id": "4",
       "title": "Mtn. Mid-Rise Luxe - Condo",
-      "description": "Sophisticated condo renovation featuring contemporary finishes, custom millwork, and luxurious bathroom design. This mountain retreat showcases elegan...",
+      "description": "Sophisticated condo renovation featuring contemporary finishes, custom millwork, and luxurious bathroom design.",
       "imageSrc": "/images/projects/montana-cover.jpg",
       "url": "#"
     },
     {
       "id": "5",
       "title": "Ultra Luxe Private Club - Resort Pool",
-      "description": "Luxury pool and outdoor living space design featuring custom stone work, pool house structures, and beautifully landscaped entertainment areas.",
+      "description": "Luxury pool and outdoor living space design featuring custom stone work and beautifully landscaped entertainment areas.",
       "imageSrc": "/images/projects/pool-design-cover.jpg",
       "url": "#"
     },
     {
       "id": "6",
       "title": "South Coast Renovation - Complete Remodel",
-      "description": "A comprehensive remodel and design-build project that transforms existing spaces into modern, functional, and aesthetically stunning coastal living fe...",
+      "description": "A comprehensive remodel and design-build project that transforms existing spaces into modern coastal living.",
       "imageSrc": "/images/projects/southcoast-cover.jpg",
       "url": "#"
     },
     {
       "id": "7",
       "title": "Carmel Valley New - Custom Residence",
-      "description": "A stunning custom design-build residence featuring elegant architectural details and seamless integration with the natural landscape of Carmel Valley.",
+      "description": "A stunning custom design-build residence featuring elegant architectural details and seamless integration with nature.",
       "imageSrc": "/images/projects/carmel-valley-new-cover.jpg",
       "url": "#"
     },
     {
       "id": "8",
-      "title": "North Florida Renovation/Addition - Renovation/Addition",
-      "description": "Comprehensive renovation and addition project featuring thoughtful design updates and estate management services. This project showcases professional ...",
+      "title": "North Florida Renovation/Addition",
+      "description": "Comprehensive renovation and addition project featuring thoughtful design updates and estate management services.",
       "imageSrc": "/images/projects/north-florida-cover.jpg",
       "url": "#"
     },
     {
       "id": "9",
       "title": "Coastal Restoration - Erosion Repair",
-      "description": "A dramatic coastal restoration project showcasing erosion repair and hillside stabilization. This comprehensive project transformed an eroded coastal ...",
+      "description": "A dramatic coastal restoration project showcasing erosion repair and hillside stabilization.",
       "imageSrc": "/images/projects/coastal-restoration-cover.jpg",
       "url": "#"
     },
     {
       "id": "10",
       "title": "Coastal Mountain Residence - Civil Site Work",
-      "description": "Scenic mountain remodel project featuring stunning ocean views, retaining wall construction, custom garage building, and comprehensive site developmen...",
+      "description": "Scenic mountain remodel project featuring stunning ocean views and comprehensive site development.",
       "imageSrc": "/images/projects/bigsur-cover.jpg",
       "url": "#"
     },
     {
       "id": "11",
-      "title": "Carmel Knolls - More Than Lipstick on an Old Lady!",
-      "description": "A complete remodel showcasing the transformation from original condition to a beautifully finished home with updated decking, new windows, architectur...",
+      "title": "Carmel Knolls - Complete Remodel",
+      "description": "A complete remodel showcasing the transformation from original condition to a beautifully finished home.",
       "imageSrc": "/images/projects/carmel-knolls-cover.jpg",
       "url": "#"
     },
@@ -122,8 +112,8 @@
     },
     {
       "id": "13",
-      "title": "Civil Engineering - Infrastructure Projects",
-      "description": "Comprehensive civil engineering projects including excavation, coastal restoration, retaining wall systems, hillside stabilization, and site grading. ...",
+      "title": "Civil Engineering - Infrastructure",
+      "description": "Comprehensive civil engineering projects including excavation, coastal restoration, and hillside stabilization.",
       "imageSrc": "/images/projects/civil-cover.jpg",
       "url": "#"
     },
@@ -143,29 +133,29 @@
     },
     {
       "id": "16",
-      "title": "New Residential Construction - In Historic Neighborhood",
-      "description": "A comprehensive transformation of a historic property, seamlessly blending traditional craftsman character with modern comfort and functionality. This...",
+      "title": "New Residential Construction",
+      "description": "A comprehensive transformation of a historic property, blending traditional craftsman character with modern comfort.",
       "imageSrc": "/images/projects/pg-cover.jpg",
       "url": "#"
     },
     {
       "id": "17",
-      "title": "Carmel Forest to Ocean View - Custom Addition",
-      "description": "A stunning coastal home showcasing refined craftsmanship and thoughtful design that harmonizes with the natural beauty of the Carmel coastline.",
+      "title": "Carmel Forest to Ocean View",
+      "description": "A stunning coastal home showcasing refined craftsmanship and thoughtful design.",
       "imageSrc": "/images/projects/carmel-2-cover.jpg",
       "url": "#"
     },
     {
       "id": "18",
-      "title": "Hillside Restoration & Environmental Cleanup - Environmental Restoration",
-      "description": "Comprehensive hillside restoration and environmental cleanup project removing years of accumulated dumping and debris to restore the natural landscape...",
+      "title": "Hillside Restoration & Cleanup",
+      "description": "Comprehensive hillside restoration and environmental cleanup project to restore the natural landscape.",
       "imageSrc": "/images/projects/cleanup-cover.jpg",
       "url": "#"
     },
     {
       "id": "19",
-      "title": "Laguna Grande - Spanish Revival Commercial",
-      "description": "A comprehensive commercial design-build project featuring Spanish Colonial Revival architecture. This multi-building complex showcases careful attenti...",
+      "title": "Laguna Grande - Spanish Revival",
+      "description": "A comprehensive commercial design-build project featuring Spanish Colonial Revival architecture.",
       "imageSrc": "/images/projects/laguna-grande-cover.jpg",
       "url": "#"
     }
@@ -173,66 +163,56 @@
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Architectural Design",
+      "description": "Crafting timeless structures that harmonize with their environment, blending aesthetic elegance with functional excellence."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Interior Curation",
+      "description": "Designing sophisticated interior spaces with premium finishes, custom millwork, and a focus on refined luxury."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Civil Engineering",
+      "description": "Providing comprehensive site development, coastal restoration, and infrastructure solutions with technical precision."
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Project Management",
+      "description": "Overseeing complex design-build projects from conception to completion, ensuring the highest standards of quality."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "With a passion for excellence and an eye for detail, I specialize in creating sophisticated residential and commercial spaces. My approach combines visionary design with technical expertise, delivering projects that are as functional as they are beautiful. From high-rise luxury condos to coastal restorations, I am dedicated to exceptional craftsmanship and timeless aesthetics.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋 I'm Rory Roy Ulloa, a visionary designer and developer.",
+    "description": "I specialize in luxury residential and commercial design-build projects, delivering world-class experiences through technical expertise and artistic vision.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
+        "dates": "2020 - Present",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
-      },
-      {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "position": "Principal Designer at Roy's Company",
+        "bullets": "Leading high-end residential and commercial projects, Managing comprehensive design-build workflows"
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "Architecture & Design Institute",
+      "universityDate": "2014-2018",
+      "universityPara": "Focused on modern architectural principles and sustainable design practices."
     },
     "languages": [
-      "Javascript",
-      "HTML5",
-      "CSS",
-      "Python",
-      "Go"
+      "English",
+      "Spanish"
     ],
     "frameworks": [
-      "React",
-      "Typescript",
-      "NodeJs"
+      "AutoCAD",
+      "Revit",
+      "SketchUp"
     ],
     "others": [
-      "Figma",
-      "AdobeXD",
-      "AWS"
+      "Project Management",
+      "Site Development",
+      "Interior Design"
     ]
   }
 }
