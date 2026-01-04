@@ -76,19 +76,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={() => router.push("/resume")}
+                      classes="first:ml-1"
                     >
                       Resume
                     </Button>
                   )}
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
+                  <Button href="mailto:hello@chetanverma.com">Contact</Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
@@ -107,11 +102,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
+                  <Button href="mailto:hello@chetanverma.com">Contact</Button>
                 </div>
               )}
             </Popover.Panel>
@@ -145,9 +136,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
+            <Button href="mailto:hello@chetanverma.com">Contact</Button>
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -174,9 +163,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
+            <Button href="mailto:hello@chetanverma.com">Contact</Button>
 
             {mounted && theme && data.darkMode && (
               <Button
