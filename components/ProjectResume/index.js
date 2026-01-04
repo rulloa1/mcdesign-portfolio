@@ -1,26 +1,25 @@
 import React from "react";
 
 const ProjectResume = ({ dates, type, position, bullets }) => {
-  const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split(","));
+  const bulletsList = bullets ? bullets.split(",") : [];
 
   return (
-    <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">
-      <div className="text-lg w-2/5">
-        <h2>{dates}</h2>
-        <h3 className="text-sm opacity-50">{type}</h3>
+    <div className="space-y-4">
+      <div className="flex flex-col tablet:flex-row justify-between items-baseline gap-2">
+        <h3 className="text-2xl font-playfair font-semibold">{position}</h3>
+        <span className="text-sm uppercase tracking-widest opacity-50">{dates}</span>
       </div>
-      <div className="w-3/5">
-        <h2 className="text-lg font-bold">{position}</h2>
-        {bulletsLocal && bulletsLocal.length > 0 && (
-          <ul className="list-disc">
-            {bulletsLocal.map((bullet, index) => (
-              <li key={index} className="text-sm my-1 opacity-70">
-                {bullet}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
+      <p className="text-xs uppercase tracking-[0.2em] font-bold text-luxury-gold/80">{type}</p>
+      {bulletsList.length > 0 && (
+        <ul className="space-y-3 pt-2">
+          {bulletsList.map((bullet, index) => (
+            <li key={index} className="text-lg font-inter font-light opacity-70 leading-relaxed flex items-start gap-4">
+              <span className="mt-2.5 h-1.5 w-1.5 rounded-full bg-luxury-gold shrink-0"></span>
+              {bullet.trim()}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
