@@ -11,7 +11,7 @@ const Footer = ({}) => {
         <div className="grid grid-cols-1 laptop:grid-cols-12 gap-24">
           <div className="laptop:col-span-7 space-y-12">
             <h2 className="text-5xl laptop:text-8xl font-playfair font-bold leading-[1.1] tracking-tight">
-              Let's create something <br />
+              Let&apos;s create something <br />
               <span className="text-luxury-gold italic">extraordinary</span> together.
             </h2>
             <div className="pt-8">

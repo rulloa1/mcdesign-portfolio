@@ -10,6 +10,7 @@ const Socials = ({ className }) => {
           key={index} 
           onClick={() => window.open(social.link)}
           classes="!px-0 mr-6 last:mr-0"
+          aria-label={`Visit ${social.title} profile`}
         >
           {social.title}
         </Button>
