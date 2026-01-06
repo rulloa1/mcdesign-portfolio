@@ -172,7 +172,7 @@ export default function Home() {
               <div className="flex flex-col items-center text-center space-y-16">
                 <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-luxury-gold">The Visionary</span>
                 <h2 className="text-4xl tablet:text-6xl laptop:text-7xl font-playfair font-medium leading-[1.2] italic">
-                  "{data.aboutpara}"
+                    &quot;{data.aboutpara}&quot;
                 </h2>
                 <div className="flex items-center gap-12 opacity-30">
                   <div className="h-px w-24 bg-current"></div>
