@@ -8,7 +8,9 @@ const Socials = ({ className }) => {
       {yourData.socials.map((social, index) => (
         <Button 
           key={index} 
-          onClick={() => window.open(social.link)}
+          href={social.link}
+          target="_blank"
+          rel="noopener noreferrer"
           classes="!px-0 mr-6 last:mr-0"
         >
           {social.title}
