@@ -25,6 +25,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             <div className="flex items-center justify-between p-4">
               <h1
                 onClick={() => router.push("/")}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    router.push("/");
+                  }
+                }}
+                role="button"
+                tabIndex="0"
                 className="font-playfair font-bold text-2xl tracking-tighter cursor-pointer"
               >
                 {name.toUpperCase()}
@@ -33,6 +41,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <div className="flex items-center gap-6">
                 {data.darkMode && mounted && (
                   <button
+                    aria-label={theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                     className="p-2"
                   >
@@ -44,7 +53,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </button>
                 )}
 
-                <Popover.Button className="p-2">
+                <Popover.Button className="p-2" aria-label="Menu">
                   <img
                     className="h-6"
                     src={`/images/${
@@ -94,6 +103,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       >
         <h1
           onClick={() => router.push("/")}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              router.push("/");
+            }
+          }}
+          role="button"
+          tabIndex="0"
           className="font-playfair font-bold text-3xl tracking-tighter cursor-pointer hover:text-luxury-gold transition-all duration-500"
         >
           {name.toUpperCase()}
@@ -121,6 +138,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </button>
           {mounted && theme && data.darkMode && (
             <button
+              aria-label={theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="p-2"
             >
