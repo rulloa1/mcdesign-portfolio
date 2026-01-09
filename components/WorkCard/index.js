@@ -2,8 +2,9 @@ import React from "react";
 
 const WorkCard = ({ img, name, description, onClick }) => {
   return (
-    <div
-      className="group cursor-pointer"
+    <button
+      type="button"
+      className="group cursor-pointer w-full text-left transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-luxury-gold focus-visible:ring-offset-4 focus-visible:ring-offset-white dark:focus-visible:ring-offset-[#0a0a0a]"
       onClick={onClick}
     >
       <div
@@ -32,7 +33,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
           <div className="h-px w-12 bg-luxury-gold" />
         </div>
       </div>
-    </div>
+    </button>
   );
 };
 
