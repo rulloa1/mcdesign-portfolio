@@ -1,6 +1,7 @@
 import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
@@ -23,16 +24,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-4">
-              <h1
-                onClick={() => router.push("/")}
-                className="font-playfair font-bold text-2xl tracking-tighter cursor-pointer"
-              >
-                {name.toUpperCase()}
+              <h1 className="font-playfair font-bold text-2xl tracking-tighter">
+                <Link href="/">
+                  <a className="hover:text-luxury-gold transition-all duration-500">
+                    {name.toUpperCase()}
+                  </a>
+                </Link>
               </h1>
 
               <div className="flex items-center gap-6">
                 {data.darkMode && mounted && (
                   <button
+                    aria-label="Toggle Dark Mode"
                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                     className="p-2"
                   >
@@ -44,7 +47,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </button>
                 )}
 
-                <Popover.Button className="p-2">
+                <Popover.Button className="p-2" aria-label="Toggle Menu">
                   <img
                     className="h-6"
                     src={`/images/${
@@ -92,11 +95,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       <nav
         className={`py-12 hidden tablet:flex flex-row items-center justify-between sticky top-0 z-50 bg-white/60 dark:bg-[#0a0a0a]/60 backdrop-blur-2xl border-b border-transparent hover:border-gray-100 dark:hover:border-gray-900 transition-all duration-700`}
       >
-        <h1
-          onClick={() => router.push("/")}
-          className="font-playfair font-bold text-3xl tracking-tighter cursor-pointer hover:text-luxury-gold transition-all duration-500"
-        >
-          {name.toUpperCase()}
+        <h1 className="font-playfair font-bold text-3xl tracking-tighter">
+          <Link href="/">
+            <a className="hover:text-luxury-gold transition-all duration-500">
+              {name.toUpperCase()}
+            </a>
+          </Link>
         </h1>
         <div className="flex items-center gap-12">
           {!isBlog ? (
@@ -121,6 +125,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </button>
           {mounted && theme && data.darkMode && (
             <button
+              aria-label="Toggle Dark Mode"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="p-2"
             >
