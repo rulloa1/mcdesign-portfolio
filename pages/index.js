@@ -65,7 +65,7 @@ export default function Home() {
           handleAboutScroll={handleAboutScroll}
         />
         
-        <main>
+        <main id="main-content">
           {/* Hero Section - Editorial Style */}
           <section className="min-h-[90vh] flex flex-col justify-center py-20">
             <div className="max-w-7xl">

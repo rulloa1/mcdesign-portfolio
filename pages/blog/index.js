@@ -73,7 +73,7 @@ const Blog = ({ posts }) => {
           }`}
         >
           <Header isBlog={true}></Header>
-          <div className="mt-10">
+          <main id="main-content" className="mt-10">
             <h1
               ref={text}
               className="mx-auto mob:p-2 text-bold text-6xl laptop:text-8xl w-full"
@@ -114,7 +114,7 @@ const Blog = ({ posts }) => {
                   </div>
                 ))}
             </div>
-          </div>
+          </main>
         </div>
         {process.env.NODE_ENV === "development" && mounted && (
           <div className="fixed bottom-6 right-6">
