@@ -35,7 +35,7 @@ const Resume = () => {
         <Header isBlog />
         
         {mount && (
-          <div className="mt-20 flex flex-col items-center">
+          <main id="main-content" className="mt-20 flex flex-col items-center">
             <div className="w-full max-w-4xl bg-white/50 dark:bg-white/5 backdrop-blur-md p-10 tablet:p-20 border border-gray-100 dark:border-gray-900 shadow-2xl">
               <div className="flex flex-col tablet:flex-row justify-between items-start gap-10 border-b border-gray-100 dark:border-gray-900 pb-12">
                 <div className="space-y-4">
@@ -119,7 +119,7 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </main>
         )}
       </div>
     </div>

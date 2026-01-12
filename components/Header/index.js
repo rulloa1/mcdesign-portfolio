@@ -20,6 +20,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
   return (
     <>
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-5 focus:left-5 focus:z-[100] focus:px-6 focus:py-3 focus:bg-white focus:text-black focus:font-bold focus:shadow-xl focus:rounded-md focus:outline-none focus:ring-2 focus:ring-luxury-gold"
+      >
+        Skip to content
+      </a>
       <Popover className="block tablet:hidden mt-8">
         {({ open }) => (
           <>
