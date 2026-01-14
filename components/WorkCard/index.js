@@ -1,10 +1,16 @@
 import React from "react";
 
-const WorkCard = ({ img, name, description, onClick }) => {
+const WorkCard = ({ img, name, description, onClick, href }) => {
+  const isLink = !!href;
+  const Component = isLink ? "a" : "div";
+  const props = isLink
+    ? { href, target: "_blank", rel: "noopener noreferrer" }
+    : { onClick };
+
   return (
-    <div
-      className="group cursor-pointer"
-      onClick={onClick}
+    <Component
+      className="group cursor-pointer block w-full"
+      {...props}
     >
       <div
         className="relative overflow-hidden aspect-[4/5] tablet:aspect-[3/4] laptop:aspect-[16/11] bg-gray-50 dark:bg-[#111] image-reveal"
@@ -32,7 +38,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
           <div className="h-px w-12 bg-luxury-gold" />
         </div>
       </div>
-    </div>
+    </Component>
   );
 };
 
