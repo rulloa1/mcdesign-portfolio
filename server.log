@@ -1,0 +1,12 @@
+
+> react-portfolio-template@3.0 dev /app
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+warn  - Found lockfile missing swc dependencies, patching..
+wait  - compiling...
+event - compiled client and server successfully in 2.6s (128 modules)
+warn  - Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
+wait  - compiling / (client and server)...
+wait  - compiling...
+event - compiled client and server successfully in 1530 ms (282 modules)
